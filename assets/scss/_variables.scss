@@ -1,0 +1,85 @@
+:root {
+    // Cores
+    --main-color              : #00ABC1;
+    --secondary-color         : #ffffff;
+    --detail-color            : #003953;
+    --bg-color                : #E6E6E6;
+    --text-color              : #4D4D4D;
+    --disabled-color          : #ccc;
+    --secondary-disabled-color: #ccc;
+    --disabled-text           : #363434;
+    --secondary-disabled-text : #7083aa;
+    --detail-disabled-color   : #212F4E;
+    --disabled-border-color   : #DDDFE4;
+    --active-bg-color         : #E81D43;
+
+    //Font-families
+    --main-font     : 'Montserrat', sans-serif;
+    --secondary-font: 'Bebas Neue', cursive;
+
+    // Font sizes
+    --fsize1: 1.4rem;
+    --fsize2: 1.6rem; //main
+    --fsize3: 1.9rem;
+    --fsize4: 2.1rem;
+    --fsize5: 2.4rem;
+    --fsize6: 2.9rem;
+    --fsize7: 3.3rem;
+    --fsize8: 6.5rem;
+    --fsize9: 8rem;
+
+    // Spaces
+    --small-gutter : 7.5px;
+    --normal-gutter: 20px;
+    --medium-gutter: 30px;
+    --big-gutter   : 60px;
+
+    // Radius
+    --normal-radius: 20px;
+    --medium-radius: 25px;
+    --big-radius   : 30px;
+
+    //Container Width
+    --container-width: 1350px;
+
+    //Responsive width
+    --desktop-width: 1920px;
+    --tablet-width : 1200px;
+    --mobile-width : 990px;
+
+    //Input params
+    --input-border     : 2px solid var(--disabled-color);
+    --input-radius     : 0;
+    --input-fsize      : var(--fsize5);
+    --input-spacing    : 12px 15px;
+    --input-background : transparent;
+    --placeholder-color: var(--disabled-color);
+
+    //Button params
+    --button-border         : none;
+    --button-background     : var(--disabled-color);
+    --button-color          : var(--secondary-color);
+    --button-spacing        : 10px 30px;
+    --button-fsize          : var(--fsize1);
+    --button-weight         : 600;
+    --button-radius         : 0;
+    --button-h-color        : var(--secondary-color);
+    --button-h-background   : var(--main-color);
+    --button-with-border    : 2px solid var(--detail-color);
+    --button-secondary-color: var(--detail-text);
+}
+
+@media screen and (max-width: 1366px) {
+    :root {
+        // Font sizes
+        --fsize6: 2.5rem;
+        --fsize7: 3rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    :root {
+        // Font sizes
+        --fsize8: 4rem;
+    }
+}
